@@ -17,7 +17,7 @@
 
 ## 程序截图图片
 
-![示例图片](./Clipboard.jpg)
+![示例图片](./Clipboard.png)
 
 ## 依赖项
 
