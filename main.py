@@ -45,7 +45,7 @@ class ClipboardMonitorApp:
         # 更新文本框内容
         self.text_box.configure(state='normal')
         # 在每个记录之间添加分割线
-        self.text_box.insert(tk.END, '---' * 20 + '\n')
+        self.text_box.insert(tk.END, '---' * 28 + '\n')
         self.text_box.insert(tk.END, text + '\n')
         self.text_box.configure(state='disabled')
         self.text_box.see(tk.END)  # 自动滚动到文本框底部
