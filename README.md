@@ -11,7 +11,7 @@
 1. 要在 Windows 上使用 PyCharm 将 Python 项目打包成可执行的 .exe 文件，可以使用 PyInstaller 工具。
 2. 下载仓库中的py文件。
 3. 在 PyCharm 的终端或者命令提示符中运行命令：pip install pyinstaller
-4. 在项目目录中，使用 PyInstaller 将 Python 脚本打包成 .exe 文件，命令为：pyinstaller --onefile main.py
+4. 在项目目录中，使用 PyInstaller 将 Python 脚本打包成 .exe 文件，命令为：pyinstaller --onefile main.py或pyinstaller -F -i 图片名.ico 文件名.py
 5. 打包成功后，PyInstaller 会在项目目录下生成一个 dist 文件夹，里面包含生成的 .exe 文件。你可以在 dist/ 文件夹中找到你的可执行文件，双击即可运行。
 
 
