@@ -40,5 +40,5 @@
 ---
 
 感谢使用云剪切板服务！
-项目by Huayonghu
+项目by HuayongHu
 
